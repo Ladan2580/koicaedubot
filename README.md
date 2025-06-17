@@ -1,0 +1,2 @@
+# koicaedubot
+Privacy policy
