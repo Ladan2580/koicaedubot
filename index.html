@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | AI Education Transparency</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --accent-color: #e74c3c;
+            --light-color: #ecf0f1;
+            --dark-color: #2c3e50;
+            --text-color: #333;
+            --text-light: #7f8c8d;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: #f9f9f9;
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: white;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #eee;
+        }
+
+        .university-badge {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1rem;
+        }
+
+        .university-badge img {
+            height: 60px;
+            margin-right: 1rem;
+        }
+
+        h1 {
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+            font-size: 2.2rem;
+        }
+
+        .subtitle {
+            color: var(--secondary-color);
+            font-weight: 400;
+            margin-bottom: 1rem;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            margin: 1.5rem 0 1rem;
+            font-size: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid #eee;
+        }
+
+        h3 {
+            color: var(--secondary-color);
+            margin: 1.2rem 0 0.8rem;
+            font-size: 1.2rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+        }
+
+        ul,
+        ol {
+            margin-bottom: 1rem;
+            padding-left: 2rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        .highlight-box {
+            background-color: var(--light-color);
+            border-left: 4px solid var(--secondary-color);
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: 0 4px 4px 0;
+        }
+
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+        }
+
+        .data-table th,
+        .data-table td {
+            padding: 0.75rem;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .data-table th {
+            background-color: var(--primary-color);
+            color: white;
+        }
+
+        .data-table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 2rem;
+            padding-top: 1rem;
+            border-top: 1px solid #eee;
+            color: var(--text-light);
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+                margin: 1rem;
+            }
+
+            h1 {
+                font-size: 1.8rem;
+            }
+
+            .highlight-box {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="university-badge">
+                <img src="adaptive-icon.png" alt="KoicaEduBot Logo">
+            </div>
+            <h1>Privacy Policy</h1>
+            <p class="subtitle">AI for At-Risk Student Identification</p>
+            <p>Last Updated: <span id="current-date"></span></p>
+        </header>
+
+        <section>
+            <h2>Introduction</h2>
+            <p>This application "KoicaEduBot" was developed as part of a Master's degree research project in Applied
+                Artificial Intelligence at Hanyang University, South Korea. The App provides real-time predictions of
+                student at-risk status using machine learning models without storing any user data.</p>
+
+            <div class="highlight-box">
+                <p><strong>Important Privacy Assurance:</strong> This application does not store any user information
+                    permanently. All data you provide is used exclusively for real-time prediction via our trained
+                    machine learning model to identify student at-risk status. Once the prediction is generated, your
+                    input data is immediately discarded and not retained on our servers or in any persistent storage.
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Information Processing</h2>
+            <h3>Data Flow</h3>
+            <p>The complete data processing workflow:</p>
+            <ol>
+                <li>You temporarily input educational information</li>
+                <li>The data is securely transmitted to our prediction service</li>
+                <li>Our machine learning model generates an at-risk assessment</li>
+                <li>The results are displayed to you</li>
+                <li>All input data is immediately and permanently deleted</li>
+            </ol>
+
+            <h3>Data Used for Prediction</h3>
+            <p>The following data points are used temporarily for generating predictions:</p>
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>Data Category</th>
+                        <th>Purpose in Prediction Model</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Age</td>
+                        <td>Demographic factor in risk assessment</td>
+                    </tr>
+                    <tr>
+                        <td>Gender</td>
+                        <td>Demographic factor in risk assessment</td>
+                    </tr>
+                    <tr>
+                        <td>School Location</td>
+                        <td>Geographical educational context</td>
+                    </tr>
+                    <tr>
+                        <td>Attendance Rate</td>
+                        <td>Primary indicator of engagement</td>
+                    </tr>
+                    <tr>
+                        <td>Previous Term Score</td>
+                        <td>Academic performance baseline</td>
+                    </tr>
+                    <tr>
+                        <td>Study Hours Per Week</td>
+                        <td>Learning behavior indicator</td>
+                    </tr>
+                    <tr>
+                        <td>Parental Education Level</td>
+                        <td>Socio-educational factor</td>
+                    </tr>
+                    <tr>
+                        <td>Household Income Level</td>
+                        <td>Socio-economic factor</td>
+                    </tr>
+                    <tr>
+                        <td>Access To Internet</td>
+                        <td>Digital resource availability</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Data Protection Guarantee</h2>
+            <div class="highlight-box">
+                <p><strong>No Data Retention Policy:</strong> We guarantee that none of your information is stored after
+                    your prediction is complete. This includes:</p>
+                <ul>
+                    <li>No personal information stored on our servers</li>
+                    <li>No prediction inputs logged or saved</li>
+                    <li>No results associated with individual users</li>
+                    <li>No persistent cookies or tracking mechanisms</li>
+                </ul>
+            </div>
+
+            <h3>Technical Safeguards</h3>
+            <p>During the brief processing period, your data is protected by:</p>
+            <ul>
+                <li>End-to-end encryption during transmission</li>
+                <li>Memory-only processing (no disk writes)</li>
+                <li>Automatic data purging after response</li>
+                <li>Regular security audits of the prediction service</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Research Purpose</h2>
+            <p>This application was developed exclusively for academic research as part of a Master's thesis in Applied
+                Artificial Intelligence at Hanyang University. The research focuses on:</p>
+            <ul>
+                <li>Transparent AI predictions using SHAP values</li>
+                <li>LLM (Gemini) explanations for model outputs</li>
+                <li>Chatbot interfaces for educational analytics</li>
+            </ul>
+
+            <p><strong>Non-commercial Use:</strong> This is a purely academic project with no commercial aspects. The
+                application does not and will never contain advertisements or monetization features.</p>
+        </section>
+
+        <section>
+            <h2>Third-Party Services</h2>
+            <p>The App uses the following services that may process data temporarily:</p>
+            <ul>
+                <li><strong>Google Gemini API:</strong> For generating model explanations (data is not stored by Google)
+                </li>
+                <li><strong>Expo Application Services:</strong> For app distribution (no access to prediction data)</li>
+            </ul>
+            <p>All third-party services are used in compliance with their data processing policies and Korean privacy
+                regulations.</p>
+        </section>
+
+        <section>
+            <h2>Contact Information</h2>
+            <p>For questions about this privacy policy:</p>
+            <p>Researcher:Bashar Ladan<br>
+                Department of Applied Artificial Intelligence<br>
+                Hanyang University, South Korea<br>
+                Email:ladanbashargwandu@gmail.com</p>
+        </section>
+
+        <footer>
+            <p>© 2024 Hanyang University Applied AI Research. All rights reserved.</p>
+            <p>This research application does not store user data and complies with Korean privacy regulations.</p>
+        </footer>
+    </div>
+
+    <script>
+        // Automatically update the current date
+        document.getElementById('current-date').textContent = new Date().toLocaleDateString('en-US', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+        });
+    </script>
+</body>
+
+</html>
